@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+section {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: rows;
+    margin-top: 100px;
+}
+
+section>.col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#sketch-board-container {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 3px 3px 30px 0.1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container {
+    margin-top: 20px;
+    align-self: center;
+}
+
+button {
+    outline: none;
+    border: solid black 2px;
+    border-radius: 1px;
+    padding: 15px 30px;
+    background-color: transparent;
+    min-width: 100px;
+    width: 180px;
+    font-size: 1.02rem;
+    color: black;
+    text-transform: uppercase;
+    transition: opacity 0.25s 0s;
+}
+
+#btn-clear {
+    margin-right: 20px;
+}
+
+#btn-submit {
+    margin-left: 20px;
+}
+
+#img-preview {
+    background-color: white;
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

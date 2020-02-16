@@ -1,0 +1,6 @@
+.vscode
+.idea
+lib
+.jshintrc
+__pycache__
+.ipynb_checkpoints
